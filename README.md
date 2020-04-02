@@ -2,7 +2,7 @@
 This project is a precursor of what is yet to come. Built on mobilenet and Tensorflow.js. 
 
 To use this on your local system
-1) Clone the repository by copying the given line in your Command Prompt for Windows users, Terminal for Linux and Mac users.
+1) Clone the repository using :
    
    git clone https://github.com/sid0312/Facial-Emotion-Detector
 
