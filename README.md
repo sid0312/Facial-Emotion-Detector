@@ -12,7 +12,7 @@ To use this on your local system
    
 3) Add the Web Server Extension to Chrome
 
-  ![] (emotions-detect/webserverimg.PNG)
+  ![](emotions-detect/webserverimg.PNG)
 
 
 
