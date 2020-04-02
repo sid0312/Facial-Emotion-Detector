@@ -12,7 +12,7 @@ To use this on your local system
    
 3) Add the Web Server Extension to Chrome
 
-  ![Offline Web Server for Chrome] (https://github.com/sid0312/Facial-Emotion-Detector/tree/master/emotions-detect/webserverimg.PNG)
+  ![] (emotions-detect/webserverimg.PNG)
 
 
 
