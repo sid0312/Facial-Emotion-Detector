@@ -42,6 +42,4 @@ To use this on your local system
 ![](emotions-detect/result.PNG)
 
 
-!
-
 
