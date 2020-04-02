@@ -1,0 +1,44 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<script src="webcam.js"></script>
+<script src="get_data.js"></script>
+<link rel="stylesheet" href="style.css">
+<title style="align-content: center">Face emotion detecor</title>
+</head>
+<body>
+    <h2 class="title">Facial Emotion Detector</h2>
+	<div>
+		<div class="video-disp",id="box">
+			<video autoplay playsinline muted id="wc" width="224" height="224" style="display:block; margin: 0 auto;" ></video>
+		</div>
+	</div>
+    
+    <div class="btn-group" >
+        
+	<button type="button" id="0" onclick="handleButton(this)" style="margin: 10px ">Smile for the cameras!😊</button>
+	<button type="button" id="1" onclick="handleButton(this)" style="margin: 10px ">Show me some anger 👿 </button>
+	<button type="button" id="2" onclick="handleButton(this)" style="margin: 10px ">Try to frown! ☹️</button>
+	<button type="button" id="3" onclick="handleButton(this)" style="margin: 10px ">Look upwards🙄 </button>
+	<button type="button" id="4" onclick="handleButton(this)" style="margin: 10px ">Try to show that you're typing something 💻</button>
+        
+   </div>
+    
+	<div id="smiles">Times you get happy: </div>
+	<div id="horns">Angry face count: </div>
+	<div id="frowns">Number of Frowns: </div>
+	<div id="upwards">Times you look upwards: </div>
+	<div id="typing">Typing samples: </div>
+    <div id="training">
+	<button type="button" id="train" onclick="doTraining()" style="align-content: center">Train my model!</button>
+    </div>
+	<div id="dummy"></div>
+    <div class="btn-group">
+	<button type="button" id="startPredicting" onclick="startPredicting()" style= "margin:10px">Start Predicting</button>
+	<button type="button" id="stopPredicting" onclick="stopPredicting()" style= "margin:10px">Stop it!</button>
+    </div>
+	<div id="prediction"></div>
+</body>
+    
+<script src="my_model.js"></script>
+</html>

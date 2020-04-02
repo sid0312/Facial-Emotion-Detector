@@ -1,0 +1,16 @@
+h1 {
+   font-size: 1000%; 
+   color: darkblue;
+}
+body {
+  background-image: url('happyvsad.webp');
+
+}
+#detect
+{
+    font-size: 100px;
+    border-radius: 30px;
+    margin:20px;
+    margin-left: 200px;
+    color:green;
+}

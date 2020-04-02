@@ -1,0 +1,147 @@
+html,body
+{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.title
+{
+    color: black;
+    text-align: center;
+    text-decoration-color: white;
+    font-size:80px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    border-width: 3px;
+    border-color: black;
+
+}
+body {
+ background-image: url(stones_through_an_icy_lake.jpg);
+
+}
+.video-disp
+{
+   margin: 40px;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-color: black;
+  border-width: 2px;
+      
+}
+
+.btn-group button {
+  background-color: white; 
+  border: 1px solid white; 
+  border-radius: 30px;
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group button:hover {
+  background-color: darkgray;
+}
+
+.btn-group {
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#smiles
+{
+    text-align: :center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+#horns
+{
+    text-align: :center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+#frowns
+{
+    text-align: :center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+#upwards
+{
+    text-align: :center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+
+}
+
+#typing
+{
+    text-align: :center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+#train
+{
+    margin: 10px;
+    margin-left: 675px;
+    margin-right:600px;
+    color: black;
+    background-color: white;
+    padding: 10px 24px; 
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: white;
+    flex-direction: row;
+    
+}
+#train:hover {
+  background-color: darkgrey;
+
+}
+#training
+{
+    align-content: center;
+}
+#prediction
+{
+    font-size: 50px;
+    align-content: center;
+}
