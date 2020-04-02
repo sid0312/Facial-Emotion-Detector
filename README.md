@@ -18,5 +18,12 @@ To use this on your local system
  
  ![](emotions-detect/chromeapps.PNG)
 
+5) Click on the webserver icon. This should open a dialog box as follows:
+
+![](emotions-detect/web1.PNG)
+
+
+
+
 
 
