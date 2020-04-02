@@ -35,9 +35,13 @@ To use this on your local system
 ![](emotions-detect/detect.PNG)
 
 9) Click on each of the buttons while making the suitable expressions as instructed. To record one sample, left click and release the mouse on that icon. Record atleast 30 samples per button . After performing this, click on "Train my model". The model has started to train
+
+
 ![](emotions-detect/predict.PNG)
 
+
 10) An alert will appear after the model has completed training. Click on Start Predicting to begin real-time expression and emotion prediction of your face. Click on stop predicting to turn off the predictions. 
+
 
 ![](emotions-detect/result.PNG)
 
