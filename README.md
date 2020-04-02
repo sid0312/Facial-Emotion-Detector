@@ -13,6 +13,10 @@ To use this on your local system
 3) Add the Web Server Extension to Chrome
 
   ![](emotions-detect/webserverimg.PNG)
+  
+ 4) The webserver will be in chrome://apps/
+ 
+ ![](emotions-detect/chromeapps.PNG)
 
 
 
